@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Let’s play a game!</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link
+    href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i,700,700i&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_for_coins.css">
+  <link rel="stylesheet" href="style_for_coins_2.css">
+</head>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<body>
+
+  <div class="template">
+
+    <div class="first-page {{direction text|text|left-direction}}">
+      <div>
+        <h1>Let’s play a game!</h1>
+        <p class="fz20"><b>Can you tell the real coins from fake ones?</b></p>
+        <p class="fz20"><b>Click on the real ones to feed your wallet! It won’t accept fakes!</b></p>
+      </div>
+      <div class="first-page-image">
+        <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_ivw2mmi0.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
+      </div>
+      <span class="button play-button">Game on</span>
+    </div>
+
+    <div class="game display-none">
+
+      <div class="coins">
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-1 false-coin" data-selected="0" src="https://i.imgur.com/gfMtaQC.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin2 coin-2 true-coin true-coin-first-page" data-selected="0"
+            src="https://i.imgur.com/hezS5CQ.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin3 coin-3 true-coin true-coin-first-page" data-selected="0"
+            src="https://i.imgur.com/RebleOh.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-4 false-coin" data-selected="0" src="https://i.imgur.com/Xzye4y2.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-5 false-coin" data-selected="0" src="https://i.imgur.com/jFwowHH.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin6 coin-6 true-coin true-coin-first-page" data-selected="0"
+            src="https://i.imgur.com/9XJt1ho.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-7 false-coin" data-selected="0" src="https://i.imgur.com/Rnka2Kg.gif" alt="coin coin">
+        </label>
+     
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-9 false-coin" data-selected="0" src="https://i.imgur.com/7Fw9vKP.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-10 false-coin" data-selected="0" src="https://i.imgur.com/KTrqEcu.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-11 false-coin" data-selected="0" src="https://i.imgur.com/WFmxV28.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin12 coin-12 true-coin true-coin-first-page" data-selected="0"
+            src="https://i.imgur.com/Sm83Hdy.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-13 false-coin" data-selected="0" src="https://i.imgur.com/nJPK6s6.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin14 coin-14 true-coin true-coin-first-page" data-selected="0"
+            src="https://i.imgur.com/sVCoJ49.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-15 false-coin" data-selected="0" src="https://i.imgur.com/qTr6TVX.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin16 coin-16 true-coin true-coin-first-page" data-selected="0"
+            src="https://i.imgur.com/0rZFJ08.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-17 false-coin" data-selected="0" src="https://i.imgur.com/8UjpGKT.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-18 false-coin" data-selected="0" src="https://i.imgur.com/eYyjcGj.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-19 false-coin" data-selected="0" src="https://i.imgur.com/dpDP2N3.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-20 false-coin" data-selected="0" src="https://i.imgur.com/FNyBhW3.gif" alt="coin coin">
+        </label>
+        <label>
+          <input type="checkbox">
+          <img class="coin coin-21 false-coin" data-selected="0" src="https://i.imgur.com/jel31Iy.gif" alt="coin coin">
+        </label>
+
+      </div>
+
+      <div class="bag bagNeutral">
+        <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_8chmn4eu.json"  background="transparent"  speed="200"  loop  ></lottie-player>
+      </div>
+      <div class="bag bagGood display-none">
+        <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_lrltbbmr.json"  background="transparent"  speed="2"  loop  autoplay></lottie-player>
+      </div>
+      <div class="bag bagBad display-none">
+        <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_wd0fp619.json"  background="transparent"  speed="2"    loop  autoplay></lottie-player>
+      </div>
+
+    </div>
+
+    <div class="page-of-results display-none  {{direction text|text|left-direction}}">
+      
+      <div class="your_results">
+       
+        <h1>Your results</h1>
+
+        <div class="collected_coins">
+
+          <h3 class="header_collected">You’ve collected these coins</h3>
+          <h3 class="header_collected_all display-none">Wow! You’ve collected all real coins!</h3>
+          <div class="all_true_coins">
+            <div class="new_coins coin2 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/hezS5CQ.gif" alt="coin">
+              <p>USA<br>Dollar</p>
+            </div>
+            <div class="new_coins coin3 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/RebleOh.gif" alt="coin">
+              <p>Euro</p>
+            </div>
+            <div class="new_coins coin6 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/9XJt1ho.gif" alt="coin">
+              <p>Japanese<br>Yen</p>
+            </div>
+           
+            <div class="new_coins coin12 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/Sm83Hdy.gif" alt="coin">
+              <p>Swiss<br>Franc</p>
+            </div>
+            <div class="new_coins coin14 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/sVCoJ49.gif" alt="coin">
+              <p>Turkish<br>Lira</p>
+            </div>
+            <div class="new_coins coin16 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/0rZFJ08.gif" alt="coin">
+              <p>Brazil<br>Real</p>
+            </div>
+          </div>
+
+
+
+        </div>
+
+        <div class="uncollected_coins">
+
+          <h3 class="header_uncollected">You’ve missed these coins</h3>
+          <h3 class="header_uncollected_all display-none">You’ve missed all coins. Don’t worry – you’ll get lucky next time</h3>
+
+          <div class="all_true_coins">
+            <div class="new_coins coin2 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/hezS5CQ.gif" alt="coin">
+              <p>USA<br>Dollar</p>
+            </div>
+            <div class="new_coins coin3 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/RebleOh.gif" alt="coin">
+              <p>Euro</p>
+            </div>
+            <div class="new_coins coin6 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/9XJt1ho.gif" alt="coin">
+              <p>Japanese<br>Yen</p>
+            </div>
+           
+            <div class="new_coins coin12 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/Sm83Hdy.gif" alt="coin">
+              <p>Swiss<br>Franc</p>
+            </div>
+            <div class="new_coins coin14 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/sVCoJ49.gif" alt="coin">
+              <p>Turkish<br>Lira</p>
+            </div>
+            <div class="new_coins coin16 true-coin">
+              <img class="new_coin" src="https://i.imgur.com/0rZFJ08.gif" alt="coin">
+              <p>Brazil<br>Real</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div>
+        <h3 class="white">You can trade all these currencies, including the exotic ones, with FBS</h3>
+      </div>
+
+      <div class="trade-button">
+        <a class="button" href="fbspersonalarea://pa/finances/account"><b>Trade currency pairs</b></a>
+      </div>
+
+   
+    </div>
+
+
+ 
+
+  </div>
+
+
+
+  <script src="main.js"></script>
+</body>
+
+</html>

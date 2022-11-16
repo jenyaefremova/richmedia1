@@ -1,0 +1,461 @@
+
+@keyframes coin-fly-1 {
+  0% {
+    left: 10%;
+    top: -100px;
+  }
+
+  20% {
+    left: 10%;
+    top: 0;
+  }
+
+  100% {
+    left: 10%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-2 {
+  0% {
+    right: 35%;
+    top: -100px;
+  }
+
+  10% {
+    right: 35%;
+    top: 0;
+  }
+
+  100% {
+    right: 35%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-3 {
+  0% {
+    right: 7%;
+    top: -100px;
+  }
+
+  10% {
+    right: 7%;
+    top: 0;
+  }
+
+  100% {
+    right: 7%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-4 {
+  0% {
+    right: 59%;
+    top: -100px;
+  }
+
+  10% {
+    right: 59%;
+    top: 0;
+  }
+
+  100% {
+    right: 59%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-5 {
+  0% {
+    right: 50%;
+    top: -100px;
+  }
+
+  10% {
+    right: 50%;
+    top: 0;
+  }
+
+  100% {
+    right: 50%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-6 {
+  0% {
+    left: 7%;
+    top: -100px;
+  }
+
+  10% {
+    left: 7%;
+    top: 0;
+  }
+
+  100% {
+    left: 7%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-7 {
+  0% {
+    left: 60%;
+    top: -100px;
+  }
+
+  10% {
+    left: 60%;
+    top: 0;
+  }
+
+  100% {
+    left: 60%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-8 {
+  0% {
+    left: 70%;
+    top: -100px;
+  }
+
+  10% {
+    left: 70%;
+    top: 0;
+  }
+
+  100% {
+    left: 70%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-9 {
+  0% {
+    left: 30%;
+    top: -100px;
+  }
+
+  10% {
+    left: 30%;
+    top: 0;
+  }
+
+  100% {
+    left: 30%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-10 {
+  0% {
+    right: 15%;
+    top: -100px;
+  }
+
+  10% {
+    right: 15%;
+    top: 0;
+  }
+
+  100% {
+    right: 15%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-11 {
+  0% {
+    left: 2%;
+    top: -100px;
+  }
+
+  10% {
+    left: 2%;
+    top: 0;
+  }
+
+  100% {
+    left: 2%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-12 {
+  0% {
+    left: 32%;
+    top: -100px;
+  }
+
+  10% {
+    left: 32%;
+    top: 0;
+  }
+
+  100% {
+    left: 32%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-13 {
+  0% {
+    left: 47%;
+    top: -100px;
+  }
+
+  10% {
+    left: 47%;
+    top: 0;
+  }
+
+  100% {
+    left: 47%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-14 {
+  0% {
+    left: 74%;
+    top: -100px;
+  }
+
+  10% {
+    left: 74%;
+    top: 0;
+  }
+
+  100% {
+    left: 74%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-15 {
+  0% {
+    left: 27%;
+    top: -100px;
+  }
+
+  10% {
+    left: 27%;
+    top: 0;
+  }
+
+  100% {
+    left: 27%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-16 {
+  0% {
+    left: 75%;
+    top: -100px;
+  }
+
+  10% {
+    left: 75%;
+    top: 0;
+  }
+
+  100% {
+    left: 75%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-17 {
+  0% {
+    right: 3%;
+    top: -100px;
+  }
+
+  10% {
+    right: 3%;
+    top: 0;
+  }
+
+  100% {
+    right: 3%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-18 {
+  0% {
+    right: 55%;
+    top: -100px;
+  }
+
+  10% {
+    right: 55%;
+    top: 0;
+  }
+
+  100% {
+    right: 55%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-19 {
+  0% {
+    right: 15%;
+    top: -100px;
+  }
+
+  10% {
+    right: 15%;
+    top: 0;
+  }
+
+  100% {
+    right: 15%;
+    top: 900px;
+  }
+}
+
+@keyframes coin-fly-20 {
+  0% {
+    right: 35%;
+    top: -100px;
+  }
+
+  10% {
+    right: 35%;
+    top: 0;
+  }
+
+  100% {
+    right: 35%;
+    top: 900px;
+  }
+}
+@keyframes coin-fly-21 {
+  0% {
+    right: 80%;
+    top: -100px;
+  }
+
+  10% {
+    right: 80%;
+    top: 0;
+  }
+
+  100% {
+    right: 80%;
+    top: 900px;
+  }
+}
+
+
+.coin-1 {
+  position: absolute;
+  animation: coin-fly-1 9s linear 1s 1 both;
+}
+
+.coin-2 {
+  position: absolute;
+  animation: coin-fly-2 9s linear 6s 1 both;
+}
+
+.coin-3 {
+  position: absolute;
+  animation: coin-fly-3 8s linear 4s 1 both;
+}
+
+.coin-4 {
+  position: absolute;
+  animation: coin-fly-4 5s linear 5s 1 both;
+}
+
+.coin-5 {
+  position: absolute;
+  animation: coin-fly-5 9s linear 7s 1 both;
+}
+
+.coin-6 {
+  position: absolute;
+  animation: coin-fly-6 8s linear 12s 1 both;
+}
+
+.coin-7 {
+  position: absolute;
+  animation: coin-fly-7 8s linear 11s 1 both;
+}
+
+.coin-8 {
+  position: absolute;
+  animation: coin-fly-8 8s linear 11s 1 both;
+}
+
+.coin-9 {
+  position: absolute;
+  animation: coin-fly-9 10s linear 13s 1 both;
+}
+
+.coin-10 {
+  position: absolute;
+  animation: coin-fly-10 9s linear 15s 1 both;
+}
+
+.coin-11 {
+  position: absolute;
+  animation: coin-fly-11 9s linear 16s 1 both;
+}
+
+.coin-12 {
+  position: absolute;
+  animation: coin-fly-12 9s linear 10s 1 both;
+}
+
+.coin-13 {
+  position: absolute;
+  animation: coin-fly-13 8s linear 18s 1 both;
+}
+
+.coin-14 {
+  position: absolute;
+  animation: coin-fly-14 8s linear 19s 1 both;
+}
+
+.coin-15 {
+  position: absolute;
+  animation: coin-fly-15 8s linear 20s 1 both;
+}
+
+.coin-16 {
+  position: absolute;
+  animation: coin-fly-16 9s linear 26s 1 both;
+}
+
+.coin-17 {
+  position: absolute;
+  animation: coin-fly-17 8s linear 22s 1 both;
+}
+
+.coin-18 {
+  position: absolute;
+  animation: coin-fly-18 8s linear 23s 1 both;
+}
+
+.coin-19 {
+  position: absolute;
+  animation: coin-fly-19 10s linear 24s 1 both;
+}
+
+.coin-20 {
+  position: absolute;
+  animation: coin-fly-20 10s linear 25s 1 both;
+}
+.coin-21 {
+  position: absolute;
+  animation: coin-fly-21 8s linear 26s 1 both;
+}
